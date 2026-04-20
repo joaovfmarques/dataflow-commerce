@@ -1,0 +1,28 @@
+# PoC - Projeto dbt minimo para a stack DataFlow Commerce
+# Valida a escolha do dbt-spark para modelagem analitica (Silver -> Gold)
+# conforme docs/05-tecnologias.md (secao 5.3).
+
+name: "dataflow_commerce"
+version: "0.1.0"
+config-version: 2
+
+profile: "dataflow_commerce"
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  dataflow_commerce:
+    +materialized: table
+    staging:
+      +schema: silver
+      +materialized: view
+    marts:
+      +schema: gold
+      +materialized: table
