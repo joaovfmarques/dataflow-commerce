@@ -1,0 +1,11 @@
+id_pedido,id_cliente,id_produto,quantidade,valor,data,status,forma_pagamento
+1001,501,SKU-00001,2,149.80,2026-04-18,pago,cartao_credito
+1002,502,SKU-00007,1,89.90,2026-04-18,pago,pix
+1003,503,SKU-00012,3,270.00,2026-04-19,pendente,boleto
+1004,504,SKU-00005,1,35.50,2026-04-19,pago,pix
+1005,505,SKU-00020,2,199.80,2026-04-19,cancelado,cartao_credito
+1006,506,SKU-00003,4,480.00,2026-04-19,pago,cartao_credito
+1007,507,SKU-00011,1,59.90,2026-04-20,pago,pix
+1008,508,SKU-00018,2,249.80,2026-04-20,pago,cartao_debito
+1009,509,SKU-00002,1,19.99,2026-04-20,pago,pix
+1010,510,SKU-00015,5,750.00,2026-04-20,pago,cartao_credito
