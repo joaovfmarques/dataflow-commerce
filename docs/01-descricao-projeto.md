@@ -3,6 +3,7 @@
 ## 1.1 Nome e Contexto de Negócio
 
 **Nome do Projeto:** DataFlow Commerce
+
 **Cenário:** Plataforma de e-commerce de médio porte com catálogo de ~50.000 produtos, operando em todo o Brasil, com aproximadamente 200.000 usuários ativos por mês e pico de acessos em datas comemorativas (Black Friday, Natal).
 
 A empresa processa pedidos, gerencia estoque, realiza campanhas de marketing digital e precisa monitorar a experiência do usuário em tempo real no site e no aplicativo mobile.
