@@ -37,7 +37,3 @@ python pocs/great-expectations/expectations_pedidos.py
 ## Dados de exemplo
 
 O arquivo `data/sample_pedidos.csv` contém um pequeno conjunto de pedidos fictícios usado por todos os PoCs que precisam de dados tabulares.
-
-## Observação
-
-Conforme o tópico 8 do enunciado: *"Não é necessário implementar nada nesta parte. O foco é o planejamento arquitetural. Mas é importante fazer pequenas provas de conceito para validarem e justificar a escolha das tecnologias."* Os experimentos aqui atendem exatamente a essa orientação.
